@@ -1,26 +1,26 @@
-# BlazeDemo Performance Tests
+# Projeto de Testes QA Performance
 
 Projeto de testes de performance utilizando Apache JMeter.
 
-## Objetivo
+# Objetivo
 
 Validar o fluxo de compra de passagem aérea do BlazeDemo.
 
-## Cenário
+# Cenário
 
 - Compra de passagem com sucesso
 
-## Critérios de Aceitação
+# Critérios de Aceitação
 
 - 250 req/s
 - P90 < 2 segundos
 
-## Ferramentas
+# Ferramentas
 
 - Apache JMeter
 - Java 17
 
-## Estrutura
+# Estrutura
 
 ```text
 jmeter/
@@ -28,24 +28,24 @@ reports/
 results/
 ```
 
-## Executar Teste de Carga
+# Executar Teste de Carga
 
 ```powershell
 .\jmeter.bat -n -t jmeter/carga_test.jmx -l results/carga.jtl
 ```
 
-## Gerar Dashboard
+# Gerar Dashboard
 
 ```powershell
 .\jmeter.bat -g results/carga.jtl -o reports/carga
 ```
 
-## Resultado Esperado
+# Resultado Esperado
 
 - Throughput >= 250 req/s
 - P90 < 2 segundos
 
-## Evidências
+# Evidências
 
 Abrir:
 
@@ -53,6 +53,6 @@ Abrir:
 reports/carga/index.html
 ```
 
-## Conclusão
+# Conclusão
 
 O sistema apresentou estabilidade durante o teste de carga mantendo os critérios definidos.
