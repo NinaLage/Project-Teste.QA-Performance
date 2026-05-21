@@ -4,21 +4,19 @@
 
 Esse projeto tem como objetivo realizar um teste de carga e um teste de pico para validar a performance do site.
 
-# Cenário
+# Automação:
 
-- Compra de passagem com sucesso
+Foram Criados Cenários de testes, onde foram validados:
 
-# Critérios de Aceitação
+. Compra de passagem com sucesso
+. Considerando: 250 req/s ; P90 < 2 segundos
 
-- 250 req/s
-- P90 < 2 segundos
-
-# Ferramentas
+# Tecnologias utilizadas
 
 - Apache JMeter
 - Java 17
 
-# Estrutura
+# Estrutura do Script
 
 ```text
 jmeter/
