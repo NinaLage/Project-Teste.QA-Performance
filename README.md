@@ -1,10 +1,8 @@
 # Projeto de Testes QA Performance
 
-Projeto de testes de performance utilizando Apache JMeter.
-
 # Objetivo
 
-Validar o fluxo de compra de passagem aérea do BlazeDemo.
+Esse projeto tem como objetivo realizar um teste de carga e um teste de pico para validar a performance do site.
 
 # Cenário
 
